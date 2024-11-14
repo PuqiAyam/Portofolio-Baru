@@ -126,3 +126,24 @@ footer {
 .skills-section .progress-bar .progress {
   background-color: var(--primary-color);
 }
+
+.home-sci {
+  position: absolute;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
